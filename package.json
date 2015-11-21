@@ -1,0 +1,43 @@
+{
+  "name": "metalsmith-imagecover",
+  "version": "1.0.0",
+  "description": "A metalsmith plugin to assign each page with an image cover.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frnd/metalsmith-imagecover.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "image",
+    "cover"
+  ],
+  "author": "Fernando González <fgo@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frnd/metalsmith-imagecover/issues"
+  },
+  "homepage": "https://github.com/frnd/metalsmith-imagecover#readme",
+  "files": [
+    "lib/index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.2",
+    "gulp-mocha": "^2.2.0",
+    "gulp-plumber": "^1.0.0",
+    "metalsmith": "^2.1.0",
+    "metalsmith-markdown": "^0.2.1"
+  }
+}
