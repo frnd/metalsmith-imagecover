@@ -18,6 +18,8 @@ describe('metalsmith-imagecover', function() {
         assert.equal(cover.src, "/mountain.png");
         assert.equal(cover.title, "Mountain Title");
         assert.equal(cover.alt, "Mountain Alt");
+        cover = files["dos.html"].cover;
+        assert.strictEqual(cover, undefined);
         done();
       });
   });
@@ -27,7 +29,7 @@ describe('metalsmith-imagecover', function() {
     metalsmith
       .use(imagecover())
       .use(markdown())
-      .build(function(err, files) {
+      .build(function(err) {
         if (err) {
           return done();
         }
@@ -48,6 +50,8 @@ describe('metalsmith-imagecover', function() {
         assert.equal(cover.src, "/mountain.png");
         assert.equal(cover.title, "Mountain Title");
         assert.equal(cover.alt, "Mountain Alt");
+        cover = files["dos.html"].theImageCover;
+        assert.strictEqual(cover, undefined);
         done();
       });
   });
@@ -64,6 +68,8 @@ describe('metalsmith-imagecover', function() {
         var cover = files["uno.html"].cover;
         assert.equal(cover.src, "/mountain.png");
         assert.equal(cover.alt, "Mountain Alt");
+        cover = files["dos.html"].cover;
+        assert.strictEqual(cover, undefined);
         done();
       });
   });
