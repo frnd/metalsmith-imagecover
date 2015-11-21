@@ -32,9 +32,19 @@ metalsmith.use(excerpts());
 
 ```json
 {
-  property: "cover",
-  attributes: ['src', 'alt', 'title']
+  "property": 'cover',
+  "attributes": ['src', 'alt', 'title']
 }
+```
+
+## How to use in your template
+
+Place in your template something like:
+
+```
+{% if post.cover %}
+<img src="{{post.cover.src}}" alt="{{post.cover.alt}}" title="{{post.cover.src}}"/>
+{% endif %}
 ```
 
 ## License
