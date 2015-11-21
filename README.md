@@ -30,10 +30,12 @@ metalsmith.use(excerpts());
 
 ## Options
 
+```json
 {
   property: "cover",
   attributes: ['src', 'alt', 'title']
 }
+```
 
 ## License
 
