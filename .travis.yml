@@ -3,3 +3,6 @@ node_js:
   - "4.1"
   - "4.0"
   - 'iojs'
+addons:
+    code_climate:
+        repo_token: da41af0cea29090cca05ebb0a541a7303c62845cfb335c9a54101e764b378ab3
