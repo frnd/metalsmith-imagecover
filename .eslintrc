@@ -245,3 +245,5 @@ rules:
   yoda:
   - 0
   - never
+env:
+    node: true
