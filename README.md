@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/frnd/metalsmith-imagecover.svg?branch=master)](https://travis-ci.org/frnd/metalsmith-imagecover)
+
 # metalsmith-imagecover
  A [Metalsmith](http://metalsmith.io) plugin to assign each page with an image cover.
 
