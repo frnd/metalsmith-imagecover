@@ -6,8 +6,6 @@
 
 ## Installation
 
-TODO: This plugin is not published in npm, install using git url.
-
     $ npm install metalsmith-imagecover
 
 ## CLI Usage
@@ -18,7 +16,7 @@ TODO: This plugin is not published in npm, install using git url.
 {
   "plugins": {
     "metalsmith-imagecover": true
-  } 
+  }
 }
 ```
 
