@@ -23,19 +23,22 @@
 ## Javascript Usage
 
 ```js
-var excerpts = require('metalsmith-excerpts');
+var imagecover = require('metalsmith-imagecover');
 
-metalsmith.use(excerpts());
+metalsmith.use(imagecover());
 ```
 
 ## Options
 
 ```json
 {
-  "property": 'cover',
-  "attributes": ['src', 'alt', 'title']
+  "property": "cover",
+  "attributes": ["src", "alt", "title"]
 }
 ```
+
+property: is the name of the property that this plugin will create in metadata.
+attributes: the list of attributes to extract
 
 ## How to use in your template
 
