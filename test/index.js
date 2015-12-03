@@ -1,4 +1,5 @@
 'use strict';
+require("harmonize")(["harmony-generators"]);
 var assert = require('assert');
 var Metalsmith = require('metalsmith');
 var imagecover = require('../lib/');
