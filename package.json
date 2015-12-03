@@ -31,6 +31,7 @@
     "lodash": "^3.10.1"
   },
   "devDependencies": {
+    "harmonize": "1.4.4",
     "gulp": "^3.9.0",
     "gulp-jshint": "^2.0.0",
     "gulp-exclude-gitignore": "^1.0.0",
