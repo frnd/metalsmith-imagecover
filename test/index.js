@@ -1,5 +1,7 @@
 'use strict';
-require("harmonize")();
+if(process.version.match(/0\.12\.?\d?/)){
+  require("harmonize")(["harmony-generators"]);
+}
 var assert = require('assert');
 var Metalsmith = require('metalsmith');
 var imagecover = require('../lib/');
