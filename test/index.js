@@ -1,6 +1,7 @@
 'use strict';
 if(process.version.match(/0\.12\.?\d?/)){
-  require("harmonize")(["harmony-generators"]);
+  console.log("harmonize");
+  require("harmonize");
 }
 var assert = require('assert');
 var Metalsmith = require('metalsmith');
