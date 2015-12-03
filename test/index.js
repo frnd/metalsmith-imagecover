@@ -1,8 +1,4 @@
 'use strict';
-if(process.version.match(/0\.12\.?\d?/)){
-  console.log("harmonize");
-  require("harmonize");
-}
 var assert = require('assert');
 var Metalsmith = require('metalsmith');
 var imagecover = require('../lib/');
