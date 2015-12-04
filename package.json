@@ -4,7 +4,7 @@
   "description": "A metalsmith plugin to assign each page with an image cover.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp --harmony_generators"
   },
   "repository": {
     "type": "git",
