@@ -32,11 +32,12 @@
   },
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-jshint": "^2.0.0",
     "gulp-exclude-gitignore": "^1.0.0",
     "gulp-istanbul": "^0.10.2",
+    "gulp-jshint": "^2.0.0",
     "gulp-mocha": "^2.2.0",
     "gulp-plumber": "^1.0.0",
+    "jshint": "^2.8.0",
     "metalsmith": "^2.1.0",
     "metalsmith-markdown": "^0.2.1"
   }
